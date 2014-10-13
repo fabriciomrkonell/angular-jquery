@@ -11,7 +11,7 @@ app.controller('controller', function($scope){
 app.directive('tooltip', function () {
   return {
     restrict: 'E',
-    link: function (scope, element, attrs, teste) {
+    link: function (scope, element, attrs) {
       var config = scope[attrs['ngModel']];
       element.tooltip({
         content: config.title
