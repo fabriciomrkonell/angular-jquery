@@ -1,4 +1,1 @@
-angular-jquery
-==============
-
-f
+Como usar corretamente os plugins do JQuery com o AngularJS
