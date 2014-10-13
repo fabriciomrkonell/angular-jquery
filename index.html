@@ -4,13 +4,13 @@
 		<title>AngularJS com JQuery</title>
 		<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
 	</head>
-	<body>
+	<body ng-controller="controller">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="text-center">
 						<h1>
-							<tooltip title="Exemplo com a diretiva!">Exemplo</tooltip>
+							<tooltip ng-model="config">Exemplo</tooltip>
 						</h1>
 					</div>
 				</div>
